@@ -47,11 +47,7 @@ class dataIngestion:
             raise CustomException(e,sys)
         
         
-if __name__=="__main__":
-    obj=dataIngestion()
-    train_data_path,test_data_path=obj.initiate_data_config()
-    data_transormation=DataTransformation()
-    test_arr,train_arr,_=data_transormation.initaite_data_transformation(train_data_path,test_data_path)
+
 
 
 
